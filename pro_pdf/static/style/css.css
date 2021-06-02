@@ -1,0 +1,131 @@
+body { box-sizing: border-box;  margin:0 auto; padding: 50px 0px; background-color: #b0b2b1 !important }
+h1 { font-size:16px; font-weight:bold; }
+h2 { margin:30px 0 10px; text-align:center; font-size: 14px; font-weight: bold; }
+
+.ts-controls {background-image: url(../images/swipe.png); background-position: center top; background-repeat: no-repeat;}
+.ts-prev { position:relative; top:15%; left:0px; background-image: url(../images/prev.png);background-position: left; width: 70px; height: 70px; background-size: 60%; background-repeat: no-repeat; font-size: 0px !important; }
+.ts-next { position:relative; top:15%; right:0px; float: right; background-image: url(../images/nxt.png); background-position: right; width: 70px; height: 70px; background-size: 60%; background-repeat: no-repeat; font-size: 0px !important;}
+
+.ts-paging { width:100%; text-align:center; position:absolute; top:12px; left:0; }
+.ts-paging-btn { display:inline-block; width:10px; height:0; max-height:10px; padding-top:10px; margin-left:7px; border-radius:5px; background:#3399CC; overflow: hidden; }
+.ts-paging-btn:first-child { margin-left: 0; }
+.touchSlider10_wrap { background:#b0b2b1;  }
+#touchSlider10 { margin:0 10%; position:relative; overflow:visible; padding: 20px 0px; }
+#touchSlider10 ul { position:absolute; top:0; left:0; overflow:hidden; }
+#touchSlider10 ul li {background:#9C9; font-size:14px; color:#fff; margin: 4px !important;  }
+
+.pro-img{width: 35%; float: left; padding: 20px;}
+.pro-img img{width: 100%;}
+.pro-detl{width: 60%; float: left; padding: 10px 0px}
+.cls{clear: both;}
+
+.bt-wht{background-color: #fff; width: 150px; text-align: center; padding: 10px; position: relative; top: 60px; border-radius: 2px; color: red; font-size: 15px; font-weight: 600; font-family: Poppins; }
+.bt-blk{background-color: #000; width: 150px; text-align: center; padding: 10px; position: relative; top: 60px; border-radius: 2px; color: #fff; font-size: 15px; font-weight: 600; font-family: Poppins; }
+
+.pro-detl ul{margin: 0px; padding: 0px; position: relative !important; overflow: auto !important;}
+.pro-detl li{margin: 0px; padding: 0px; background-color: transparent !important; border: none !important; height: inherit !important;}
+.pro-detl li{ font-size: 15px; font-weight: 300; font-family: Poppins; padding: 6px 0px; margin: 0px; list-style: circle !important;}
+
+
+.ts-paging{display: none;}
+
+.touchSlider10_wrap ul li{background-color: #e31e2c !important; border: solid 2px #fff; border-radius: 20px; height: 500px; position: relative; width: 98% !important;}
+.logo{text-align: center;position: absolute; left: 0px; right: 0px; top: 35%; bottom: 50%;}
+.logo h2 {text-align: center !important;}
+.logo h1 {text-align: center !important;}
+
+ @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+.carea{padding: 50px;}
+ h2{font-size: 26px; font-weight: 400; font-family: Poppins; padding: 0px; margin: 0px; text-align: left !important;}
+ h1{font-size: 18px; font-weight: 400; font-family: Poppins; padding: 0px; margin: 0px; text-align: left !important; line-height: 22px;}
+ p{font-size: 15px; font-weight: 300; font-family: Poppins; padding: 6px 0px; margin: 0px; line-height: 26px; text-align: justify;}
+
+ .products{height: 480px; overflow: hidden; width: 100%;} 
+ .products .pro-row{margin: 0px; padding: 0px; position: relative !important;}
+ .products .pro-row .pro-sngl{margin: 10px; padding: 0px; float: left; width: 16% !important; display: block; border: none; background-color: none !important; height: auto;}
+ .products .pro-row .pro-sngl .pro{width: 100%; border: solid 1px #fff; height: 150px; display: block; overflow: hidden; border-radius: 10px; text-align: center;}
+ .products .pro-row .pro-sngl .m-name{width: 100%; height: 22px; padding: 4px; text-align: center !important;}
+ .products .pro-row .pro-sngl .m-name h1{font-size: 14px; font-family: Poppins; font-weight: normal; text-align: center !important; line-height: 15px;}
+ .products .pro-row .pro-sngl .pro img{width: 60%;}
+
+.cont-box{margin: 50px !important;}
+ .w33{float: left; width: 33%; margin: 0px;;}
+ .contact{margin: 120px 60px;}
+ .contact .feedback input{width: 80%; border: solid 1px #fff; margin: 2px; border-radius: 2px; padding:8px 12px; color: #000;}
+ .contact .feedback textarea{width: 80%; border: solid 1px #fff; margin: 2px; border-radius: 2px; padding: 12px;color: #000;}
+ .contact .feedback button{border: solid 2px #fff; border-radius: 4px; font-family: poppins; padding: 6px 20px; margin: 4px 2px;}
+ .contact .adrs{padding: }
+ .map iframe{height: 280px;}
+
+ .wp{width: 50px; height: 50px; position: fixed; bottom: 10px; left: 10px; z-index: 10000;}
+ .wp img{width: 100%;}
+ .msg{width: 50px; height: 50px; position: fixed; bottom: 10px; right: 10px; z-index: 10000;}
+ .msg img{width: 100%;}
+
+.ts-controls{width: 160px;
+position: absolute;
+margin: 0 auto;
+left: 0px;
+right: 0px;
+bottom: 10px;}
+
+.spc5{display: none;}
+
+.enq-frm{width: 50%; margin: 0 auto;}
+
+
+/*==== mediaQueries ====*/
+
+@media screen and (max-height: 1000px) and  (min-height: 767px) {
+
+	.touchSlider10_wrap ul li{height: 800px;}
+	.carea{height: 950px !important;}
+}
+
+@media screen and (max-height: 768px) and  (min-height: 601px) {
+
+	.touchSlider10_wrap ul li{height: 550px;}
+	.carea{height: 480px !important;}
+}
+
+
+@media screen and (max-height: 600px) and  (min-height: 500px) {
+	.touchSlider10_wrap ul li{height: 590px !important;}
+}
+
+
+@media screen and (max-height: 500px) {
+
+	
+	.carea{height: 550px;}
+}
+
+
+
+
+@media all and (max-width: 992px) {
+}
+
+
+@media all and (max-width: 768px) {
+	body{padding:2px 0px;}
+	.logo img{width: 80%;}
+	.w33{width: 100%; float: none;}
+	.carea img{width: 100%;}
+	.products .pro-row .pro-sngl .pro{height: auto;}
+	.products .pro-row .pro-sngl{ height: auto !important; overflow: inherit !important;}
+	.contact{margin: 30px;}
+	#touchSlider10 ul li{overflow-y: scroll;}
+	.map iframe{width: 100%;}
+	h2{font-size: 18px;}
+	.ts-controls{bottom: 40px;}
+	.carea{overflow: scroll; padding: 50px 20px;}
+	.products .pro-row .pro-sngl{width: 35% !important;}
+	.pro-img{width: 100% !important; padding: 0px !important; float: none;}
+	.pro-detl{width: 100% !important; padding: 0px !important; float: none;}
+	.spc5{width: 100%; height: 100px; display: block;}
+	.enq-frm{width: 100%; margin: 0 auto;}
+	.inner .contact{margin: 20px 0px;}
+
+}

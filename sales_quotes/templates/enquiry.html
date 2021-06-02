@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Email Signature</TITLE>
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<BODY style="font-size: 10pt; font-family: Arial, sans-serif;" align="center">
+
+	<table style="font-size: medium; font-family: Verdana; width: 420px;" class="sc-gPEVay eQYmiW" cellspacing="0" cellpadding="0"><tbody><tr><td><table style="font-size: medium; font-family: Verdana; width: 100%;" class="sc-gPEVay eQYmiW" cellspacing="0" cellpadding="0"><tbody><tr><td>
+		<img style="margin-bottom:10px" src={{profile_pic}} width="150">
+		<h3 color="#000000" style="margin: 0px; font-size: 18px; color: rgb(0, 0, 0);" class="sc-fBuWsC eeihxG"><span>{{name}}</span></h3><p color="#000000" font-size="medium" style="margin: 0px; color: rgb(0, 0, 0); font-size: 14px; line-height: 22px;" class="sc-fMiknA bxZCMx"><span>{{title}}</span></p><p color="#000000" font-size="medium" style="margin: 0px; font-weight: 500; color: rgb(0, 0, 0); font-size: 14px; line-height: 22px;" class="sc-dVhcbM fghLuF"><span>Enviro Waste Services Group</span></p></td>
+	  <td><table style="font-size: medium; font-family: Verdana; display: inline-block;" class="sc-gPEVay eQYmiW" cellspacing="0" cellpadding="0"><tbody>
+		<tr><td colspan="6" height="190"></td></tr>
+		
+		<tr style="text-align: right;">
+		<td width="3"></td>
+		{% if facebook_link %}
+		<td><a href={{facebook_link}} color="#089be5" class="sc-hzDkRC kpsoyz" style="display: inline-block; padding: 0px; "><img alt="facebook" color="#089be5" class="sc-bRBYWo ccSRck" src="https://generateyouraudience.com/signatures/enviro/facebook.png" style=" max-width: 135px; display: block; border-radius:5px" height="30"></a></td>
+		{% endif %}
+		{% if linkedin_link %}
+		<td width="5"><div></div></td><td><a href="{{linkedin_link}}" class="sc-hzDkRC kpsoyz" style="display: inline-block; padding: 0px; " color=""><img alt="linkedin" color="#089be5" class="sc-bRBYWo ccSRck" src="https://generateyouraudience.com/signatures/enviro/linkedin.png" style=" max-width: 135px; display: block; border-radius:5px;" height="30"></a></td>
+		{% endif %}
+		{% if instagram_link %}
+		<td width="5"><div></div></td><td><a href="{{instagram_link}}" color="#089be5" class="sc-hzDkRC kpsoyz" style="display: inline-block; padding: 0px; "><img alt="instagram" color="#089be5" class="sc-bRBYWo ccSRck" src="https://generateyouraudience.com/signatures/enviro/instagram.png" style=" max-width: 135px; display: block;" height="30"></a></td>
+		{% endif %}
+	  
+	  </tr></tbody></table></td></tr></tbody></table></td></tr><tr><td height="15"></td></tr><tr><td color="#089be5" direction="horizontal" style="width: 100%; border-bottom: 1px solid rgb(8, 155, 229); border-left: medium none; display: block;" class="sc-jhAzac hmXDXQ" height="1"></td></tr><tr><td height="5"></td></tr>
+	  
+	  
+	  <tr>
+		<td></td>
+	  </tr><tr><td>
+		<table><tbody>
+		  <tr>
+		  <td><img src="https://generateyouraudience.com/signatures/enviro/logo-main.jpg" style="margin-top:42px" width="147"></td>
+	  
+	  <td><table style="font-size: medium; font-family: Verdana;" class="sc-gPEVay eQYmiW" cellspacing="0" cellpadding="0">
+		<tbody><tr style="vertical-align: middle;" height="25px"><td style="vertical-align: middle;" width="">
+			<table style="font-size: medium; font-family: Verdana;" class="sc-gPEVay eQYmiW" cellspacing="0" cellpadding="0">
+				<tbody><tr><td style="vertical-align: bottom;"><span color="#089be5" width="11" style="display: block; background-color: rgb(8, 155, 229);" class="sc-jlyJG bbyJzT">
+					<img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/phone-icon-2x.png" color="#089be5" style="display: block; background-color: rgb(8, 155, 229);" class="sc-iRbamj blSEcj" width="13">
+				</span></td></tr></tbody></table></td><td style="padding: 0px; color: rgb(0, 0, 0);"><a href="tel:{{employee_mobile}}" color="#000000" style="text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;" class="sc-gipzik iyhjGb"><span>{{employee_mobile}}</span></a> </td></tr>
+				{% if email  %}
+				<tr style="vertical-align: middle;" height="25"><td style="vertical-align: middle;" width="20">
+					
+					<table style="font-size: medium; font-family: Verdana;" class="sc-gPEVay eQYmiW" cellspacing="0" cellpadding="0">
+
+					<tbody><tr><td style="vertical-align: bottom;"><span color="#089be5" width="11" style="display: block; background-color: rgb(8, 155, 229);" class="sc-jlyJG bbyJzT">
+				<img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/email-icon-2x.png" color="#089be5" style="display: block; background-color: rgb(8, 155, 229);" class="sc-iRbamj blSEcj" width="13"></span></td></tr></tbody></table></td><td style="padding: 0px;"><a href="mailto:{{email}}" color="#000000" style="text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;" class="sc-gipzik iyhjGb"><span>{{email}}</span></a></td></tr>
+				{% endif %}
+				<tr style="vertical-align: middle;" height="25"><td style="vertical-align: middle;" width="20"><table style="font-size: medium; font-family: Verdana;" class="sc-gPEVay eQYmiW" cellspacing="0" cellpadding="0"><tbody><tr><td style="vertical-align: bottom;"><span color="#089be5" width="11" style="display: block; background-color: rgb(8, 155, 229);" class="sc-jlyJG bbyJzT"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/link-icon-2x.png" color="#089be5" style="display: block; background-color: rgb(8, 155, 229);" class="sc-iRbamj blSEcj" width="13"></span></td></tr></tbody></table></td><td style="padding: 0px;"><a href="http://www.envirowaste.com.au" color="#000000" style="text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;" class="sc-gipzik iyhjGb"><span>http://www.envirowaste.com.au</span></a></td></tr><tr style="vertical-align: middle;" height="25"><td style="vertical-align: middle;" width="20"><table style="font-size: medium; font-family: Verdana;" class="sc-gPEVay eQYmiW" cellspacing="0" cellpadding="0"><tbody><tr><td style="vertical-align: bottom;"><span color="#089be5" width="11" style="display: block; background-color: rgb(8, 155, 229);" class="sc-jlyJG bbyJzT"><img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/address-icon-2x.png" color="#089be5" style="display: block; background-color: rgb(8, 155, 229);" class="sc-iRbamj blSEcj" width="13"></span></td></tr></tbody></table></td><td style="padding: 0px;"><span color="#000000" style="font-size: 12px; color: rgb(0, 0, 0);" class="sc-csuQGl CQhxV"><span>{{address}}</span></span></td></tr>
+	  
+	  <tr>
+		<td colspan="2"><table><tbody><tr>
+		  
+		<td><p style="color:#f37a29; font-size:12px;"> Waste </p></td>
+		  <td style="border-right:1px solid #089be5" width="2"></td>
+		  <td><p style="color:#f37a29; font-size:12px;"> Pump </p></td>
+		<td style="border-right:1px solid #089be5" width="2"></td>
+		<td><p style="color:#f37a29; font-size:12px;"> Hills </p></td>
+		<td style="border-right:1px solid #089be5" width="2"></td>
+		<td><p style="color:#f37a29; font-size:12px;"> Product Destruction </p></td>
+		  </tr></tbody></table></td>
+	  </tr>
+	  <tr><td colspan="2" height="5"></td></tr>
+	  <tr><td colspan="2"></td></tr></tbody></table></td>
+		  
+		  </tr>
+		  </tbody></table>
+		
+		</td></tr><tr><td height="4"></td></tr><tr><td><table style="font-size: medium; font-family: Verdana; width: 100%;" class="sc-gPEVay eQYmiW" cellspacing="0" cellpadding="0"><tbody><tr><td style="vertical-align: top; text-align: left;"></td></tr></tbody></table></td></tr>
+	  <tr><td color="#089be5" direction="horizontal" class="sc-jhAzac hmXDXQ" style="width: 100%; border-top: 1px solid rgb(8, 155, 229); border-left: medium none; display: block;" height="10"></td></tr>
+	  <tr>
+		<td><p style="text-decoration: none; color: rgb(0, 0, 0); font-size: 12px;">This communication may contain privileged and confidential information and is intended for the named addressee only. If you have received this communication in error, please notify the sender and destroy this communication immediately. Any confidentiality, privilege or copyright is not waived or lost if this communication has been sent to you in error.</p></td>
+	  </tr></tbody></table>
+		<!-- <span  style="FONT-SIZE: 7pt"><img src="https://deep.envirowasteadmin.com.au/media/mail/signature/address-icon.png" alt="phone-icon" border="0" height="12" width="12" style="border:0; height:12px; width:12px"/>&nbsp;  {{address1}}, {{address2}}<BR></span>
+		<img src="https://deep.envirowasteadmin.com.au/media/mail/signature/website-icon.png" alt="" border="0" height="12" width="12" style="border:0; height:12px; width:12px"/>&nbsp;  -->
+
+
+</BODY>
+</HTML>
